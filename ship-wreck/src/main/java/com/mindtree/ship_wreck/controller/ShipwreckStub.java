@@ -5,9 +5,16 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 import com.mindtree.ship_wreck.model.Shipwreck;
+import com.mindtree.ship_wreck.repository.ShipwreckRepository;
 
 public class ShipwreckStub {
+	
+	@Autowired
+	private ShipwreckRepository shipwreckRepository;
+	
 	private static Map<Long, Shipwreck> wrecks = new HashMap<Long, Shipwreck>();
 	private static Long idIndex = 3L;
 
