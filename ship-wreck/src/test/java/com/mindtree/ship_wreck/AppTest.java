@@ -17,5 +17,6 @@ public class AppTest
 		HomeController controller = new HomeController();
 		String str= controller.home();
         assertEquals("My Home page", str);
+	    //Doing some changes- Just like that
     }
 }

@@ -14,5 +14,6 @@ public class App
     {
         //Testing with a change
         SpringApplication.run(App.class, args);
+        //Another changes just for fun
     }
 }
